@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     let boton1 = document.getElementById("boton1");
     let boton2 = document.getElementById("boton2");
-
+document.oncontextmenu = e => e.preventDefault();
     window.addEventListener('mouseout', function (event) {
         if (event.clientY <= 0) {
             alert('¡No te vayas 😥😥😥!');
