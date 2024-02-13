@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.addEventListener('mouseout', function (event) {
         if (event.clientY <= 0) {
-            alert('¡No te vayas!');
+            alert('¡No te vayas 😥😥😥!');
         }
     });
 
@@ -36,8 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const form = document.createElement('form');
         form.setAttribute('id', 'valentineForm');
-        form.setAttribute("method", "POST");
-        form.setAttribute("action", "https://formspree.io/almendroloalmendra@gmail.com");
+        form.setAttribute("method", "post");
+        form.setAttribute("action", "https://formspree.io/f/mkndrovb");
 
         const fields = [
             { type: 'text', label: 'Nombre', name: 'nombre', required: true },
